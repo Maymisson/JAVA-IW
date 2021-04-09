@@ -67,10 +67,10 @@ public class Exercicios {
 		System.out.println("Questão 05");
 		System.out.println("----------");
 		if (i % 2 == 0) {
-			 System.out.println(i + " : " +primo);
-         } else {
-        	 System.out.println(i + " : " +nprimo);
-         }
+			System.out.println(i + " : " +primo);
+         	} else {
+        	 	System.out.println(i + " : " +nprimo);
+         	}
 		System.out.println("----------");
 		/* ---------------- */
 		
@@ -88,9 +88,9 @@ public class Exercicios {
 		/* -- Questão 07 -- */
 		int total = 15; 
 		int score = 15; 
-	    float porcentagem = (score * total / 100);
-	    System.out.println("Questão 07");   
-	    System.out.println("A porcentagem é = " + porcentagem + " %");
+	    	float porcentagem = (score * total / 100);
+	    	System.out.println("Questão 07");   
+	    	System.out.println("A porcentagem é = " + porcentagem + " %");
 		System.out.println("----------");
 		/* ---------------- */
 		
