@@ -2,6 +2,7 @@
 public class Exercicios {
 
 	public static void main(String[] args) {
+		// Exercicios 01 IW-Training Aula 01
 		
 		/* -- Questão 01 -- */
 		int fat3 = (3 * 2 * 1);
