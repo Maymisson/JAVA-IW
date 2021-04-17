@@ -1,5 +1,5 @@
 
-public class Exercicios {
+public class Exercicio1 {
 
 	public static void main(String[] args) {
 		// Exercicios 01 IW-Training Aula 01
@@ -21,11 +21,11 @@ public class Exercicios {
 		/* ---------------- */
 		
 		/* -- Questão 02 -- */
-		int x = 1;
-		int p1 = (4*x^3 + 2*x^2 + x + 10);
-		int p2 = (3*x^4 + 9*x^3 + 9*x^2 + x + 9);
-		int p3 = (x^4 + 2*x^3 + 6*x^2 + 1);
-		int p4 = (10*x^4 + 5*x^3 + 4*x^2 + x + 4);
+		int x = 2;
+		int p1 = (int) ((4*x*x*x) + (2*x*x) + (x + 10));
+		int p2 = ((3*x*x*x*x) + (9*x*x*x) + (9*x*x) + (x + 9));
+		int p3 = ((x*x*x*x) + (2*x*x*x) + (6*x*x + 1));
+		int p4 = ((10*x*x*x*x) + (5*x*x*x) + (4*x*x) + (x + 4));
 		System.out.println("Questão 02");
 		System.out.println("----------");
 		System.out.println("Polinômio P(x) : " + p1);
@@ -62,7 +62,7 @@ public class Exercicios {
 		/* ---------------- */
 		
 		/* -- Questão 05 -- */
-		int i = 10;
+		int i = 9;
 		String primo = "é primo";
 		String nprimo = "não é primo";
 		System.out.println("Questão 05");

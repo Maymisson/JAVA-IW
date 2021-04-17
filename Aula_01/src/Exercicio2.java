@@ -1,5 +1,5 @@
 
-public class Exercicios2 {
+public class Exercicio2 {
 
 	public static void main(String[] args) {
 		// Exercicios 02 IW-Training Aula 01
@@ -31,8 +31,8 @@ public class Exercicios2 {
 		/* -- Questão 03 -- */
 		double p1 = 3, p2 = 2.3, p3 = 2, p4 = 7.2;
 		double v1 = 6, v2 = 8, v3 = 4.3, v4 = 5.4;
-		double mp1 = ((p1 * v1) + (p2 * v2)) / p1 + p2;
-		double mp2 = ((p3 * v3) + (p4 * v4)) / p3 + p4;
+		double mp1 = ((p1 * v1) + (p2 * v2)) / (p1 + p2);
+		double mp2 = ((p3 * v3) + (p4 * v4)) / (p3 + p4);
 		double mpf = (mp1 + mp2) / 2 ;
 		System.out.println("Questão 03");
 		System.out.println("----------");
