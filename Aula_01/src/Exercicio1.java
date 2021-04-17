@@ -5,33 +5,33 @@ public class Exercicio1 {
 		// Exercicios 01 IW-Training Aula 01
 		
 		/* -- Questão 01 -- */
-		int fat3 = (3 * 2 * 1);
-		int fat4 = (4 * fat3);
-		int fat5 = (5 * fat4);
-		int fat6 = (6 * fat5);
-		int fat7 = (7 * fat6);
+		int fatorial3 = (3 * 2 * 1);
+		int fatorial4 = (4 * fatorial3);
+		int fatorial5 = (5 * fatorial4);
+		int fatorial6 = (6 * fatorial5);
+		int fatorial7 = (7 * fatorial6);
 		System.out.println("Questão 01");
 		System.out.println("----------");
-		System.out.println("Fatorial de 3 : " + fat3);
-		System.out.println("Fatorial de 4 : " + fat4);
-		System.out.println("Fatorial de 5 : " + fat5);
-		System.out.println("Fatorial de 6 : " + fat6);
-		System.out.println("Fatorial de 7 : " + fat7);
+		System.out.println("Fatorial de 3 : " + fatorial3);
+		System.out.println("Fatorial de 4 : " + fatorial4);
+		System.out.println("Fatorial de 5 : " + fatorial5);
+		System.out.println("Fatorial de 6 : " + fatorial6);
+		System.out.println("Fatorial de 7 : " + fatorial7);
 		System.out.println("----------");
 		/* ---------------- */
 		
 		/* -- Questão 02 -- */
 		int x = 2;
-		int p1 = (int) ((4*x*x*x) + (2*x*x) + (x + 10));
-		int p2 = ((3*x*x*x*x) + (9*x*x*x) + (9*x*x) + (x + 9));
-		int p3 = ((x*x*x*x) + (2*x*x*x) + (6*x*x + 1));
-		int p4 = ((10*x*x*x*x) + (5*x*x*x) + (4*x*x) + (x + 4));
+		int polimonio1 = ((4*x*x*x) + (2*x*x) + (x + 10));
+		int polimonio2 = ((3*x*x*x*x) + (9*x*x*x) + (9*x*x) + (x + 9));
+		int polimonio3 = ((x*x*x*x) + (2*x*x*x) + (6*x*x + 1));
+		int polimonio4 = ((10*x*x*x*x) + (5*x*x*x) + (4*x*x) + (x + 4));
 		System.out.println("Questão 02");
 		System.out.println("----------");
-		System.out.println("Polinômio P(x) : " + p1);
-		System.out.println("Polinômio P(x) : " + p2);
-		System.out.println("Polinômio P(x) : " + p3);
-		System.out.println("Polinômio P(x) : " + p4);
+		System.out.println("Polinômio P(x) : " + polimonio1);
+		System.out.println("Polinômio P(x) : " + polimonio2);
+		System.out.println("Polinômio P(x) : " + polimonio3);
+		System.out.println("Polinômio P(x) : " + polimonio4);
 		System.out.println("----------");
 		/* ---------------- */
 		
@@ -52,25 +52,25 @@ public class Exercicio1 {
 		/* ---------------- */
 		
 		/* -- Questão 04 -- */
-		double n = 8.92;
-		int a = (int) n;
-		String c = "Conversor Inteiro : ";
+		double numero = 8.92;
+		int numeroConvertido = (int) numero;
+		String frase = "Conversor Inteiro : ";
 		System.out.println("Questão 04");
 		System.out.println("----------");
-		System.out.println(c + a);
+		System.out.println(frase + numeroConvertido);
 		System.out.println("----------");
 		/* ---------------- */
 		
 		/* -- Questão 05 -- */
-		int i = 9;
-		String primo = "é primo";
-		String nprimo = "não é primo";
+		int numeral = 9;
+		String primoSim = "é primo";
+		String primoNao = "não é primo";
 		System.out.println("Questão 05");
 		System.out.println("----------");
-		if (i % 2 == 0) {
-			System.out.println(i + " : " +primo);
+		if (numeral % 2 == 0) {
+			System.out.println(numeral + " : " +primoSim);
          	} else {
-        	 	System.out.println(i + " : " +nprimo);
+        	 	System.out.println(numeral + " : " +primoNao);
          	}
 		System.out.println("----------");
 		/* ---------------- */
