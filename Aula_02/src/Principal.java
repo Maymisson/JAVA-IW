@@ -19,7 +19,7 @@ public class Principal {
 		System.out.printf("+------------------------------------+\n\n");
 
 		entrada = new Scanner(System.in);
-		System.out.printf("Informe a questão desejada desejada : ");
+		System.out.printf("Informe a questão desejada : ");
 		operacao = entrada.nextLine();
 
 		if (operacao.equals("1")) {
