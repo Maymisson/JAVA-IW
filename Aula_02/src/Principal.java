@@ -2,13 +2,12 @@ import java.util.Scanner;
 
 public class Principal {
 
-
 	private static Scanner entrada;
 	private static String operacao;
 
 	public static void main(String[] args) {
 		// CHAMADA DE METODOS DO EXERCICIO 2 AULA 2
-		
+
 		System.out.printf("+-- Questões --+\n");
 		System.out.printf("| 1  Questão 1 |\n");
 		System.out.printf("| 2  Questão 2 |\n");
@@ -18,17 +17,25 @@ public class Principal {
 		System.out.printf("+--------------+\n\n");
 
 		System.out.printf("+------------------------------------+\n\n");
-		
+
 		entrada = new Scanner(System.in);
 		System.out.printf("Informe a questão desejada desejada : ");
 		operacao = entrada.nextLine();
-		
+
 		if (operacao.equals("1")) {
 			Exercicio2.questaoOne();
 		} else if (operacao.equals("2")) {
 			Exercicio2.questaoTwo();
+		} else if (operacao.equals("3")) {
+			Exercicio2.questaoThree();
+		} else if (operacao.equals("4")) {
+			Exercicio2.questaoFor();
+		} else if (operacao.equals("5")) {
+			Exercicio2.questaoFive();
+		} else {
+			System.out.println("Opção inválida!");
 		}
-		
+
 	}
 
 }
