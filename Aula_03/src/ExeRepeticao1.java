@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExeRepeticao {
+public class ExeRepeticao1 {
 
 	private static Scanner input;
 	private static int escolhido;
