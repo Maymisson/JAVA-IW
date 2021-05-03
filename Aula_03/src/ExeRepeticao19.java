@@ -10,7 +10,7 @@ public class ExeRepeticao19 {
 		entrada = new Scanner(System.in);
 		System.out.println("Informe a quantidade de termos : ");
 		int termos = entrada.nextInt(); 
-		
+		// Usando recursividade 
 		for (int i = 0; i < termos; i++) {
 			System.out.print("(" + i + "):" + Fibonacci.fibo(i) + "\t");
 		}
