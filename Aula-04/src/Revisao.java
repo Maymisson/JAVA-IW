@@ -6,7 +6,7 @@ public class Revisao {
 
 	public static void main(String[] args) {
 		
-		// Exercicio 2 - revisão com iteração FOR
+		// Aula - 04 Revisão com iteração FOR
 		int N = 4;
 		int j = 1;
 		double soma = 0;
